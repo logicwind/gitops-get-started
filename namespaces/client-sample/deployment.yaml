@@ -1,28 +1,28 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app-abc
+  name: app-sample
   labels:
-    name: client-abc
-  namespace: client-abc
+    name: client-sample
+  namespace: client-sample
 spec:
   replicas: 2
   selector:
     matchLabels:
-      name: client-abc
+      name: client-sample
   strategy:
     type: RollingUpdate
   template:
     metadata:
       labels:
-        name: client-abc
+        name: client-sample
     spec:
       containers:
-      - image: mmorejon/erase-una-vez-1:0.2.0
-        name: erase-una-vez
+      - image: registry.digitalocean.com/logicwind/digitalocean-docker-registry-workflow:latest
+        name: sample-app
         env:
           - name: CHARACTER
-            value: "la app ABC."
+            value: "la app sample."
           - name: SLEEP_TIME
             value: "3"
         resources:
