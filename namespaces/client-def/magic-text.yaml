@@ -1,0 +1,15 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: magic-text
+  namespace: client-def
+spec:
+  encryptedData:
+    incantation: AgCNznl72eyUlj6tqnVVoxciQvYR4T1n25yP2HF2qdlOoc1jsuVE+sAZjodxP2Anw+ec4LaBIqYbgQexD+d4cbomcfH/8ANfWL0HS3Ya0R6viSEzG98gv5VYToOjVQ7eUzhPYtKhibJtoRQkB3a3JCQMewq9fHtg4evcP10NB+GGMy0xZjqbB+8bOgcyPUVDHZ0M6Yg3kDnTBbWkIdEuS0xV8h6KNaDgPu2oZ2yMvZorvjZ+E1XPDwkRGPATpHpl2h5XiIib9U56euuKEpIG8FC9ZqkJJEANlt/2F3HbbqV8eAToUx4495GQARrC7MqyQoM48+60JIxKi2M+78kOJT8lznOPtYkPFskEFJvlg3T5GlcUYjSSmdva0qdJHUArpY/JHKRSZKSvUBPvMzUS7J5O0dcrQ1mUkXxfJlMByOx7zRfyryMswkBv2PUlteTE06I9UlTdWcURPA/h1RBkVtMpob/pxOQp1Q4dQLwQWkl0RSFpUkXXhpDoDAKK7RzlW8MLNrGcmHVaKqyyaP1nMPSWI+ST2ApRhZt6cTgdJpfQA15j5KosKeViqQZ8coc5yWE6oYB72oooYbmz14fEcOCIo4ZfETN1NsrqrPQ+UE4ikVUcXOZ4w6UvWI3sAIB09YZX5h65BxcqWd+K7aZa1uU9/9ouTBa7RfLL/0zRAMne3JGX5DoW1tKqPWgvzMZTyUf3y6aa6HTZ/VS6
+  template:
+    metadata:
+      creationTimestamp: null
+      name: magic-text
+      namespace: client-def
+
